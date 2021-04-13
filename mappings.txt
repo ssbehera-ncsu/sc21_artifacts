@@ -120,3 +120,15 @@
     q. pckpt_ckpt_lm_simulation_data_18_574_246[] -> P2/accuracy/code/lm_18_574_246
     r. pckpt_ckpt_lm_simulation_data_18_533_287[] -> P2/accuracy/code/lm_18_533_287
     s. pckpt_ckpt_lm_simulation_data_18_492_328[] -> P2/accuracy/code/lm_18_492_328
+
+8. datagen/sizevar.py
+
+    a. base_simulation_data[] -> B/code/base
+    b. pckpt_simulation_data_100[] -> P1/code/pckpt_100
+    c. lm_simulation_data_100_1x[] -> M2/sizevar/code/lm_100_1x
+    d. lm_simulation_data_100_15x[] -> M2/sizevar/code/lm_100_15x
+    e. lm_simulation_data_100_2x[] -> M2/sizevar/code/lm_100_2x
+    f. lm_simulation_data_100_25x[] -> M2/sizevar/code/lm_100_25x
+    g. lm_simulation_data_100_3x[] -> M2/sizevar/code/lm_100_3x
+    h. lm_simulation_data_100_35x[] -> M2/sizevar/code/lm_100_35x
+    i. lm_simulation_data_100_4x[] -> M2/sizevar/code/lm_100_4x
