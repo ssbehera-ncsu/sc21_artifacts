@@ -29,7 +29,7 @@ from matplotlib.lines import Line2D
 
 #col_list = ['computation time', 'checkpoint time', 'waste time', 'restart time', 'wallclock time', 'efficiency',
 #             'no. of failures', 'no. of checkpoints', 'checkpoint interval', 'pct. of checkpoints to BB', 'daily write workloads to Burst Buffers']
-pckp_ckpt_simulation_data_18_82_0 = [
+pckpt_ckpt_simulation_data_18_82_0 = [
 [5.8110185300682184,4.265984862976939,0.67323936507942,97.10541390721761,20.71,602.648,0.6094073410046552,6199.467183491792],
 [1.9652351436750768,0.019896104443052804,0.07177344999994707,99.15106228466135,9.538,578.715,0.4282012121097832,2113.1586040935567],
 [0.7080714547619176,0.007298676167597188,0.0031939047618858756,99.70179396203544,3.144,524.48,0.4718580578631701,261.19375008530943],
@@ -292,7 +292,7 @@ for app in applications:
                borderpad=0.2)
     plt.xlabel('False Negative Rate (percentage)', fontsize=15)
     plt.ylabel('Overhead Reduction (percentage)', rotation='vertical', fontsize=15)
-    plt.savefig(str(applications[app_index]) + '_fn' + '.png', dpi=400)
+    plt.savefig(str(applications[app_index]) + '_fnp1p2' + '.png', dpi=400)
     plt.clf()
     app_index += 1
 
