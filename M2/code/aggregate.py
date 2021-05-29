@@ -115,6 +115,7 @@ for fn in files:
 
 
 #print sum_app_total_time
+'''
 for k in sum_app_total_time.keys():
     print ('Average computation time of '+k+': '+str(sum_app_comp_time[k]/sim_runs))
     print ('Average checkpoint time of '+k+': '+str(sum_app_ckpt_time[k]/sim_runs))
@@ -130,6 +131,7 @@ for k in sum_app_total_time.keys():
     print('Average pct of checkpoints to BB ' + k + ': ' + str(sum_app_pct_of_ckpt_2bb[k] / sim_runs))
     print('Average write workloads to BB per day: ' + str(sum_app_wrt_workload_per_day[k] / sim_runs))
     print('Average total read workloads from BB: ' + str(sum_app_rd_workload[k] / sim_runs))
+'''
 
 
 for k in sum_app_total_time.keys():
@@ -138,8 +140,10 @@ for k in sum_app_total_time.keys():
           + str(sum_app_efficiency[k]/sim_runs * 100) + ','
           + str(sum_app_failures[k]/sim_runs) + ',' + str(sum_app_no_of_ckpts[k] / sim_runs) + ','
           + str(sum_app_ckpt_interval[k] / sim_runs) + ','
-          + str(sum_app_wrt_workload_per_day[k] / sim_runs) + ']')
+          + str(sum_app_wrt_workload_per_day[k] / sim_runs) + '],')
+'''
 fout = open('read_bb.txt', 'w')
 for i in read_bb:
     fout.write(str(i)+'\n')
 fout.close()
+'''
