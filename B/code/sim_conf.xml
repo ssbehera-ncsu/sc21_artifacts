@@ -83,7 +83,7 @@
     <max_clients>4608</max_clients>
   </pfs>
   <sys_fail>
-    <distr name="weibull" shape="0.8170" scale="6.6293" location="0.0"/>
+    <distr name="weibull" shape="0.688" scale="5.45" location="0.0"/>
     <nodes>4608</nodes>
   </sys_fail>
   <node_failures>
