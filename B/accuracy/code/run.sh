@@ -1,9 +1,1 @@
-python3.6 simulation.py 1000 1000 base_5_95 0.95 > base_5_95.txt &
-python3.6 simulation.py 1000 1000 base_10_90 0.9 > base_10_90.txt &
-python3.6 simulation.py 1000 1000 base_15_85 0.85 > base_15_85.txt &
-python3.6 simulation.py 1000 1000 base_20_80 0.8 > base_20_80.txt &
-python3.6 simulation.py 1000 1000 base_25_75 0.75 > base_25_75.txt &
-python3.6 simulation.py 1000 1000 base_30_70 0.7 > base_30_70.txt &
-python3.6 simulation.py 1000 1000 base_35_65 0.65 > base_35_65.txt &
-python3.6 simulation.py 1000 1000 base_40_60 0.6 > base_40_60.txt &
 python3.6 simulation.py 1000 1000 base_18_82 0.82 > base_18_82.txt &
