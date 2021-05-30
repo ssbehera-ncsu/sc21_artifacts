@@ -1,11 +1,10 @@
-python3.6 simulation.py 50 1000 lmpckpt_50 0.5 > lmpckpt_50.txt &
-python3.6 simulation.py 50 1000 lmpckpt_60 0.6 > lmpckpt_60.txt &
-python3.6 simulation.py 50 1000 lmpckpt_70 0.7 > lmpckpt_70.txt &
-python3.6 simulation.py 50 1000 lmpckpt_80 0.8 > lmpckpt_80.txt &
-python3.6 simulation.py 50 1000 lmpckpt_90 0.9> lmpckpt_90.txt &
-python3.6 simulation.py 50 1000 lmpckpt_100 1.0 > lmpckpt_100.txt &
-python3.6 simulation.py 50 1000 lmpckpt_110 1.1 > lmpckpt_110.txt &
-python3.6 simulation.py 50 1000 lmpckpt_120 1.2 > lmpckpt_120.txt &
-python3.6 simulation.py 50 1000 lmpckpt_130 1.3 > lmpckpt_130.txt &
-python3.6 simulation.py 50 1000 lmpckpt_140 1.4 > lmpckpt_140.txt &
-python3.6 simulation.py 50 1000 lmpckpt_150 1.5 > lmpckpt_150.txt &
+python3.6 simulation.py 50 1000 pckpt_18_492_328 0.18 0.492 0.328  > pckpt_18_492_328.txt &
+python3.6 simulation.py 50 1000 pckpt_18_533_287 0.18 0.533 0.287  > pckpt_18_533_287.txt &
+python3.6 simulation.py 50 1000 pckpt_18_574_246 0.18 0.574 0.246  > pckpt_18_574_246.txt &
+python3.6 simulation.py 50 1000 pckpt_18_779_041 0.18 0.779 0.041  > pckpt_18_779_041.txt &
+python3.6 simulation.py 50 1000 pckpt_18_738_082 0.18 0.738 0.082  > pckpt_18_738_082.txt &
+python3.6 simulation.py 50 1000 pckpt_18_697_123 0.18 0.697 0.123  > pckpt_18_697_123.txt &
+python3.6 simulation.py 50 1000 pckpt_18_656_164 0.18 0.656 0.164  > pckpt_18_656_164.txt &
+python3.6 simulation.py 50 1000 pckpt_18_615_205 0.18 0.615 0.205  > pckpt_18_615_205.txt &
+python3.6 simulation.py 50 1000 pckpt_18_820_0 0.18 0.820 0  > pckpt_18_82_0.txt &
+python3.6 simulation.py 50 1000 pckpt_0_880_12 0 0.88 0.12  > pckpt_0_880_12.txt &

@@ -1,4 +1,4 @@
-models=("pckpt_simulation_data")
+models=("pckpt_lm_simulation_data")
 i=0
 
 for direc in lmpckpt_100_sys_8; do
